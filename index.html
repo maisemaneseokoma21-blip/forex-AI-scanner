@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080d16">
+<title>Forex AI Scanner | Private</title>
+<style>
+:root{--bg:#080d16;--panel:#101a29;--panel2:#152238;--line:#26364c;--muted:#91a2b9;--txt:#edf3fb;--gold:#e5bd68;--green:#36d6a0;--red:#ff7185;--blue:#76baff;--amber:#ffc66c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#1c2b43 0,transparent 38%),var(--bg);color:var(--txt);font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:env(safe-area-inset-top) 14px calc(28px + env(safe-area-inset-bottom))}
+main{max-width:850px;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;padding:17px 1px 14px}.brand{font-weight:850;letter-spacing:1.1px;font-size:16px}.brand i{color:var(--gold);font-style:normal}.sub{color:var(--muted);font-size:11px;margin-top:5px}.private{font-size:10px;border:1px solid #66542f;color:var(--gold);background:#211c13;padding:7px 9px;border-radius:20px;letter-spacing:.6px}
+.banner{border:1px solid #70572d;background:#211c13;color:#f1dcae;border-radius:13px;padding:12px 13px;font-size:11px;line-height:1.5;margin:6px 0 15px}.banner b{color:#ffe6ad}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.muted{color:var(--muted)}.tiny{font-size:10px;color:var(--muted)}h2{font-size:14px;margin:21px 1px 10px;letter-spacing:.2px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.card{background:linear-gradient(145deg,#121e30,#0f1928);border:1px solid var(--line);border-radius:15px;padding:13px;min-width:0}.metric{font-size:23px;font-weight:800;margin-top:6px}.gold{color:var(--gold)}.badge{border-radius:20px;padding:5px 8px;font-size:9px;letter-spacing:.4px;border:1px solid #3b506a;color:var(--blue);white-space:nowrap}.badge.warn{border-color:#6b542d;color:var(--amber);background:#211c13}.wide{grid-column:1/-1}
+.market{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 8px;align-items:center;padding:12px 0;border-bottom:1px solid #223148}.market:last-child{border-bottom:0}.sym{font-weight:800;letter-spacing:.3px}.desc{font-size:10px;color:var(--muted);margin-top:3px}.pending{font-size:10px;color:#b2c0d1;background:#1a2a40;padding:6px 8px;border-radius:20px}
+.tfgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:11px}.tf{background:#17263b;border-radius:10px;text-align:center;padding:10px 3px}.tf b{font-size:12px;display:block}.tf span{font-size:9px;color:var(--muted)}
+.event{padding:11px 0;border-bottom:1px solid #223148}.event:last-child{border:0}.event b{font-size:12px}.event p{margin:4px 0 0;color:var(--muted);font-size:10px;line-height:1.4}
+.signal{border:1px dashed #3b506a;border-radius:12px;padding:14px;text-align:center;color:var(--muted);font-size:11px;line-height:1.5}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}button{background:#172942;border:1px solid #385675;color:#e9f3ff;padding:11px 10px;border-radius:11px;font-size:11px;font-weight:700}
+footer{font-size:10px;line-height:1.55;color:#8495ac;margin:20px 2px 5px}
+@media(min-width:620px){body{padding-left:25px;padding-right:25px}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body><main>
+<header class="top"><div><div class="brand"><i>◆</i> FOREX AI SCANNER</div><div class="sub">PRIVATE MARKET INTELLIGENCE · V1.2</div></div><span class="private">PRIVATE EDITION</span></header>
+<div class="banner"><b>PREVIEW MODE · NOT CONNECTED TO LIVE DATA</b><br>This dashboard is a working interface prototype. No prices, news or signals shown here are live. Do not use it to make trading decisions until verified data connections and testing are completed.</div>
+
+<div class="grid">
+ <section class="card"><div class="muted tiny">WATCHLIST</div><div class="metric">06</div><div class="tiny">Configured instruments</div></section>
+ <section class="card"><div class="muted tiny">TIMEFRAMES</div><div class="metric">04</div><div class="tiny">H4 · H1 · M15 · M5</div></section>
+ <section class="card"><div class="muted tiny">ENGINE STATUS</div><div class="metric gold" style="font-size:17px">Standby</div><div class="tiny">Data connection required</div></section>
+
+ <section class="card wide">
+  <div class="row"><b>MARKET SCANNER</b><span class="badge warn">FEED NOT CONNECTED</span></div>
+  <div class="market"><div><div class="sym">XAUUSD</div><div class="desc">Gold / US Dollar</div></div><span class="pending">Awaiting data</span></div>
+  <div class="market"><div><div class="sym">EURUSD</div><div class="desc">Euro / US Dollar</div></div><span class="pending">Awaiting data</span></div>
+  <div class="market"><div><div class="sym">GBPUSD</div><div class="desc">British Pound / US Dollar</div></div><span class="pending">Awaiting data</span></div>
+  <div class="market"><div><div class="sym">USDJPY</div><div class="desc">US Dollar / Japanese Yen</div></div><span class="pending">Awaiting data</span></div>
+  <div class="market"><div><div class="sym">US30</div><div class="desc">Dow Jones index CFD · broker symbol may vary</div></div><span class="pending">Awaiting data</span></div>
+  <div class="market"><div><div class="sym">NAS100</div><div class="desc">Nasdaq index CFD · broker symbol may vary</div></div><span class="pending">Awaiting data</span></div>
+ </section>
+
+ <section class="card wide">
+  <div class="row"><b>TECHNICAL ANALYSIS</b><span class="badge">PLANNED ENGINE</span></div>
+  <div class="tfgrid"><div class="tf"><b>EMA</b><span>20 / 50</span></div><div class="tf"><b>RSI</b><span>14</span></div><div class="tf"><b>MACD</b><span>12 / 26 / 9</span></div><div class="tf"><b>MTF</b><span>4 frames</span></div></div>
+  <p class="tiny" style="line-height:1.5;margin-bottom:0">Planned analysis: trend direction, momentum, support/resistance context and timeframe alignment. Indicator readings will remain blank until market candles are received.</p>
+ </section>
+
+ <section class="card wide">
+  <div class="row"><b>FUNDAMENTALS READER</b><span class="badge warn">CALENDAR PENDING</span></div>
+  <div class="event"><b>US economic releases</b><p>NFP · CPI · PCE · FOMC · Federal Reserve decisions</p></div>
+  <div class="event"><b>Currency and central-bank context</b><p>Interest rates · inflation · employment · central-bank commentary</p></div>
+  <div class="event"><b>News interpretation</b><p>Planned output: what happened, which currencies may be affected, volatility context and uncertainty. Headlines do not guarantee market direction.</p></div>
+ </section>
+
+ <section class="card wide">
+  <div class="row"><b>AI SIGNAL CENTRE</b><span class="badge">NO LIVE SIGNALS</span></div>
+  <div class="signal" style="margin-top:12px"><b>WAITING FOR VERIFIED DATA</b><br>BUY / SELL / WAIT assessments will only be calculated after live or historical market data and a verified economic calendar are connected. Scores will not be presented as probabilities of profit.</div>
+  <div class="actions"><button type="button" onclick="alert('Preview only: market data connection has not been configured.')">Check connection</button><button type="button" onclick="alert('Preview only: alerts will be enabled after a secure backend is configured.')">Alert settings</button></div>
+ </section>
+</div>
+<footer>PRIVATE INTERFACE PROTOTYPE · READ-ONLY · NO ORDER EXECUTION. This page has no secure login yet and must not be published as a private website until server-side authentication is added. Never put broker passwords or API keys in this HTML file.</footer>
+</main></body></html>
